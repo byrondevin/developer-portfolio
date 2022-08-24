@@ -1,0 +1,17 @@
+/* Aligh navbar right */
+.navbar-nav {
+  text-align: right;
+}
+.navbar {
+  text-align: right;
+  background-color: #006075dd;
+  transition: 0.5s;
+}
+
+.navbar:hover {
+  background-color: #006075;
+}
+
+.nav-link {
+  color: white;
+}

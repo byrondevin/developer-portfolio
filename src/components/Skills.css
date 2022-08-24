@@ -1,0 +1,41 @@
+.skillsSubheadingsCol {
+  border-bottom: 1px solid #7dcddd;
+  transition: 0.5s;
+}
+.skillsSubheadingsCol:hover {
+  border-bottom: 3px solid #7dcddd;
+}
+.skillsSubheadingsColSelected {
+  border-bottom: 3px solid #7dcddd;
+}
+
+.skillsSubheading {
+  font-weight: 400;
+  transition: 0.5s;
+  color: #c8e6ec;
+}
+.skillsSubheading:hover {
+  font-weight: 700;
+}
+.skillsSubheadingSelected {
+  font-weight: 700;
+}
+
+.skillSubheading {
+  color: #7dcddd;
+}
+
+.skillColBottomBorder {
+  position: relative;
+  z-index: 1;
+}
+
+.skillColBottomBorder:before {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  height: 1px;
+  width: 50%; /* or 100px */
+  border-bottom: 1px solid #7dcddd;
+}

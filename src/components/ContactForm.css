@@ -1,0 +1,27 @@
+.contactFormLabels {
+  display: inline-block;
+  text-align: left;
+}
+
+.smInput {
+  min-height: 45px;
+  font-size: 16px;
+}
+
+.bgInput {
+  min-height: 75px;
+  font-size: 16px;
+}
+
+#nameInput {
+  font-size: 16px;
+}
+
+.formContainer {
+  width: 85%;
+}
+
+#sendBtn {
+  padding: 10px;
+  font-size: 15px;
+}

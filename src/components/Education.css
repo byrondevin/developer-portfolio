@@ -1,0 +1,35 @@
+.historyImg {
+  height: 75px;
+}
+
+.education {
+  background-color: #459db5;
+  text-align: right;
+  color: #ffff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+button {
+  padding: 5px;
+  font-size: 12px;
+}
+
+#itemHeading {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#itemSubHeading {
+  font-weight: 600;
+}
+
+.btnCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+}
+
+button {
+  width: 75px;
+}

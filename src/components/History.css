@@ -1,0 +1,35 @@
+.History {
+  min-height: 100vh;
+}
+
+#workExpSubHead {
+  background-color: #005f75;
+  border-radius: 0px 10px 10px 0px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+#workExpSubHead:hover {
+  transform: scale(1.1);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#eduSubHead {
+  background-color: #459db5;
+  border-radius: 10px 0px 0px 10px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+#eduSubHead:hover {
+  transform: scale(1.1);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#btnSae {
+  width: 83.95px;
+}
+
+#btnUct {
+  width: 58.5px;
+}

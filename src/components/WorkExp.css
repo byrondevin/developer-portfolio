@@ -1,0 +1,48 @@
+.work {
+  background-color: #005f75;
+  text-align: left;
+  color: #c8e6ec;
+}
+
+.historyImg {
+  height: 75px;
+}
+
+.work {
+  text-align: left;
+  border-radius: 0px 10px 10px 0px;
+}
+
+button {
+  padding: 5px;
+  font-size: 12px;
+}
+
+#itemHeading {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#itemSubHeading {
+  font-weight: 600;
+}
+
+.btnCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+}
+
+button {
+  width: 75px;
+}
+
+.historyImg {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#descriptionList {
+  color: #ffff;
+}

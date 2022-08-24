@@ -1,0 +1,35 @@
+.btn-secondary {
+  background-color: "";
+}
+
+.portfolioBtns {
+  background-color: #346e7b;
+}
+
+.btn-secondary:checked {
+  background-color: #ffff;
+}
+
+.portfolioBtns:checked {
+  background-color: #ffff;
+}
+
+.port-filter-btns {
+  width: 100%;
+}
+
+#filter-btn-all {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#filter-btn-custom {
+  border-radius: 0px;
+}
+
+#filter-btn-templated {
+  border-radius: 0px 10px 10px 0px;
+}
+
+[type="radio"] {
+  display: none;
+}

@@ -1,23 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+// Imports
+import "./App.css";
+import ContactForm from "./components/ContactForm";
+import HomeAboveFold from "./components/HomeAboveFold";
+import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
+import History from "./components/History";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import React, { useState, useEffect } from "react";
 
 function App() {
+  //boolean state variable that tracks desktop vs mobile view (Not currently used)
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
+
+  //function to update state varaible when mobile view used
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 650);
+  };
+
+  //run updateMedia function to check if desktop or mobile view onload. add event listener to check viewport again when screen resized
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App m-0 p-0">
+      {/* navbar */}
+      <Nav />
+
+      {/* top of homepage, above-fold */}
+      <HomeAboveFold />
+
+      {/* section to display skills (WebDev, SEO) */}
+      <Skills />
+
+      {/* previous webdev projects */}
+      <Portfolio />
+
+      {/* employment and education history */}
+      <History />
+
+      {/* contact section. email form and contact links */}
+      <ContactForm />
+
+      {/* footer */}
+      <Footer />
     </div>
   );
 }
