@@ -32,7 +32,7 @@ function History() {
         courseName="Full stack web development bootcamp"
         year="2022"
         logo="/images/hyperiondev-logo.jpeg"
-        link="https://www.hyperiondev.com/bootcamps/web-development/"
+        link="https://www.hyperiondev.com/portfolio/78107/"
       />
 
       <WorkExp
