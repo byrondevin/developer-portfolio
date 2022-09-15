@@ -1,3 +1,97 @@
+# Software Requirements document 
+
+## Links to deployed apps and git repositories
+	•	Deployed on Hosting
+	  ⁃	byrondevin.com
+	•	Git repository
+	  ⁃	https://github.com/byrondevin/developer-portfolio.git
+
+## System Architecture  
+	•	App’s web stack
+	  ⁃	React
+	•	Architecture choice. 
+	  ⁃	Deployed on Hostinger
+	  ⁃	Create react app
+	    ⁃	Want to make use of the dynamic display that changes with user interactions when state values are updated
+	•	Styling tools 
+	  ⁃	Custom css, bootstrap
+	  ⁃	Custom css
+	    ⁃	Full control 
+	    ⁃	Reliable
+	    ⁃	Fast load speeds
+	  ⁃	Bootstrap
+	    ⁃	Convenience
+	    ⁃	Responsive
+	•	Reused architectural components that will be reused
+	  ⁃	Navbar
+	  ⁃	Education components in the History section
+	  ⁃	Work experience components in the History section
+
+## System Requirements  
+	•	How the application will work
+	  ⁃	Web development portfolio website for Byron Devin
+	    ⁃	No e-commerce capabilities
+	    ⁃	Informational site about Byron Devin and his web development skills and experience
+	    ⁃	Contact form
+	•	Users
+	  ⁃	Byron’d potential employers and clients
+	•	Traffic sources
+	  ⁃	Organic Social media (IG & FB)
+	  ⁃	Direct traffic
+	  ⁃	Google
+	    ⁃	Name searches (no SEO campaign targeting other keywords) 
+	•	Site uses
+	  ⁃	Informational website informing users about Byron’s services
+	  ⁃	Ability to contact the owner through contact form or linked social accounts
+	•	System Requirements
+	  ⁃	Functional Requirements
+	    ⁃	Direct user to appropriate skill or service from homepage
+	    ⁃	View education and work experince
+	    ⁃	Display previous projects
+	  ⁃	Non-Functional Requirements
+	    ⁃	Usability
+	      ⁃	User-interface
+	        ⁃	Responsive (Mobile first)
+	        ⁃	Intuitive to the user
+	        ⁃	User friendly
+	      ⁃	Documentation
+	        ⁃	The code will include detailed comments that explain the app.
+	        ⁃	A readme file with additional information will be stored in the project’s root folder
+	    ⁃	Reliability
+	      ⁃	Server running 24/7/365
+	      ⁃ Daily backups provided by host (Hostinger)
+	        ⁃	Users can revert back to previous version of site using the backups
+	    ⁃	Performance
+	      ⁃	Google PageSpeed Insights score of over 80 on all pages
+	    ⁃	Security
+	       ⁃	Helmet security
+	    ⁃	Design constraints
+	       ⁃ Responsive design (Mobile first)
+	       ⁃ Intuitive UI (User friendly)
+	       ⁃ Funnel customers towards required information/the product they are interested in
+      ⁃ Implementation requirements
+	      ⁃	Programming Languages and tools
+	        ⁃	React 
+	        ⁃	Jest Tests
+	        ⁃	Bootstrap
+	    ⁃	Interface requirements
+	      ⁃	User interacts with database through the frontend (react), which sends requests to the backend (Express). 
+	      ⁃	The express backend then communicates with the Database (MongoDB) before responding to the request originally initiated by the user on the frontend.
+	    ⁃	Physical Requirements
+	      ⁃	Host servers (Hostinger)
+	      ⁃	User’s device must be connected to a stable internet connection 
+	    ⁃	Supportability Requirements
+	      ⁃	How the system is run
+	        ⁃	The software runs on the browser
+	        ⁃	The software must be able to run smoothly on mainstream browsers and any modern desktop or mobile device released in the last 5 years
+	      ⁃	How the system is monitored and updated
+	        ⁃	JEST testing will notify the development team of issues.
+	        ⁃	Otherwise, monthly manual audits check the functioning of the website. This is included in the website management package.
+	    ⁃	Testing the app
+	      ⁃	Jest snapshot tests used for frontend testing 
+	      ⁃	How to run the test: Run the command “npm test” in terminal from  project folder 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
